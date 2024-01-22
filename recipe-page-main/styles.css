@@ -1,0 +1,100 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: hsl(30, 54%, 90%);
+  color: hsl(30, 10%, 34%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 1.6rem;
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+img {
+  width: 100%;
+  border-radius: 7px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+caption {
+  text-align: left;
+}
+
+td,
+tr {
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+  padding: 0.5rem;
+}
+
+ol,
+ul {
+  padding: 0.5rem 2rem;
+  list-style-position: outside;
+}
+
+hr {
+  border: 0.2px solid hsl(30, 18%, 87%);
+  margin: 2rem 0;
+}
+
+h1,
+h2 {
+  font-family: "Young Serif", serif;
+}
+
+h1 {
+  color: hsl(24, 5%, 18%);
+  font-size: 2.5rem;
+  margin: 1rem 0;
+}
+
+h2 {
+  color: hsl(14, 45%, 36%);
+  font-size: 2rem;
+  margin-top: 1.5rem;
+}
+
+h3 {
+  color: hsl(332, 51%, 32%);
+  font-weight: 600;
+}
+
+.container {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: hsl(0, 0%, 100%);
+  padding: 2rem;
+  width: 500px;
+  border-radius: 7px;
+}
+
+.prep {
+  background-color: hsla(332, 51%, 32%, 0.1);
+  border-radius: 7px;
+  padding: 1rem 0 1rem 3rem;
+  margin: 2rem 0;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.amount {
+  color: hsl(14, 45%, 36%);
+  font-weight: 600;
+}
