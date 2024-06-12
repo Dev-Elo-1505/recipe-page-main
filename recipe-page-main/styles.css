@@ -98,3 +98,20 @@ h3 {
   color: hsl(14, 45%, 36%);
   font-weight: 600;
 }
+
+@media screen and (max-width: 768px) {
+  img {
+    border-radius: 0;
+  }
+  
+  .container {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    border-radius: 0;
+  }
+
+  .text {
+    padding: 2rem;
+  }
+}
